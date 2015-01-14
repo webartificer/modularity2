@@ -1,1 +1,183 @@
 /* ADD YOUR STYLES HERE */
+
+.center-img {
+    text-align: center;
+}
+.center-img * {
+    padding: 20px;
+    display: inline-block;
+    top: 0px;
+    vertical-align: top;
+}
+
+.center-img li {
+    display: block;
+    padding: 0;
+    text-align: left;
+    display: list-item;
+    list-style-position: inside;
+}
+
+.vspace {
+    padding: 125px 0 125px;
+}
+
+.vspace img {
+
+}
+
+.hlist, .hlist li {
+    display: inline;
+    padding: 0;
+    margin: 0;
+    float: left;
+}
+
+.button {
+    background: #27ae60;
+    color: white;
+    display: inline-block;
+    border: none;
+    text-decoration: none;
+    transition: background .3s ease;
+}
+
+.button:hover {
+    background: #2ecc71;
+}
+
+.big {
+    padding: 1em 2.5em;
+    border-radius: 5px;
+    font-size: 1.5em;
+}
+
+.medium {
+    padding: 1em 2.5em;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.small {
+    padding: .5em .75em;
+    border-radius: 5px;
+    font-size: .8em;
+}
+
+.navitem {
+    padding: 1em 2.5em;
+    border-radius: 0px;
+}
+
+
+nav li:first-child a {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+nav li:last-child a {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+ol.paginate, ol.paginate li {
+    display: inline-block;
+    height: 40px;
+    padding: 3px;
+    margin: 0;
+
+}
+
+ol.paginate li {
+    position: relative;
+    color: #ccc;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+}
+ol.paginate li a, ol.paginate li span {
+    color: #27ae60;
+    width: 100%;
+    height: 25px;
+    line-height: 27px;
+    display: inline-block;
+    text-decoration: none;
+    border-bottom: 3px solid #27ae60;
+    padding: 3px;
+}
+
+ol.paginate li a:hover {
+    background: rgba(39,174,96,1);
+    color: #fff;
+    border-radius: 3px;
+}
+
+ol.paginate li span {
+    border-bottom: 3px solid #aaa;
+    color: #aaa;
+}
+
+ol.paginate li:first-child a, ol.paginate li:last-child a  {
+    border-bottom: none;
+}
+ol.paginate li:first-child, ol.paginate li:last-child  {
+    width: 60px;
+}
+
+.avatar {
+    float: left;
+    padding: 5px;
+}
+.comment {
+    overflow: hidden;
+    padding: 5px;
+}
+
+.comment_item {
+    clear: both;
+}
+
+.reply {
+    display: block;
+    float: left;
+    width: 100%;
+}
+
+time {
+    font-size: 75%;
+    color: silver;
+}
+
+.tab {
+    border: 1px solid blue;
+    border-radius: 5px 5px 0 0 ;
+    color: blue;
+    font-weight: bold;
+}
+
+ul.tab_group {
+    padding: 0;
+    margin: 0 10px;
+}
+
+.tab_group li {
+    display: inline-block;
+    padding: 5px 10px;
+}
+
+.tab_group li a {
+    text-decoration: none;
+}
+
+.tab_content {
+    border: 1px solid blue;
+    margin-top: -1px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.active {
+    background: white;
+    z-index: 2;
+    border-bottom: 1px solid white;
+}
